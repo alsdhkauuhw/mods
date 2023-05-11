@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r4.1">
+    <folder id="0">
+        <file id="0" name="swap_mygita.png" width="46" height="128" pivot_x="0.565217" pivot_y="0.546875"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="NewAnimation" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="1" time="789">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="swap_mygita">
+                <key id="0" spin="-1">
+                    <object folder="0" file="0" x="1.748667" y="-34.136414" angle="1.245364" scale_x="3.512192" scale_y="3.007092"/>
+                </key>
+                <key id="1" spin="-1">
+                    <object folder="0" file="0" x="13" y="-1" angle="1.245364" scale_x="3.512192" scale_y="3.007092"/>
+                </key>
+                <key id="2" time="789" spin="-1">
+                    <object folder="0" file="0" x="13" y="32" pivot_x="0.565217" pivot_y="0.546875" angle="360" scale_x="3.512192" scale_y="3.007092"/>
+                </key>
+                <key id="3" time="789">
+                    <object folder="0" file="0" x="1.031138" y="-0.884051" pivot_x="0.491134" pivot_y="0.461441" angle="360" scale_x="3.512192" scale_y="3.007092"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
